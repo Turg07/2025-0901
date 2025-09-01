@@ -6,6 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>こんにちは!</h1>
+    <h1>こんばんは!</h1>
+    <h1>##プロフィール</h1>
 </body>
 </html>
+
+
+<!-- 一連の流れ
+【GitHub】
+ New、名前つける
+ Public/private選択
+ SSIHキーに選択(HTMLじゃない方)
+
+【Terminal】 
+ git init：新しいリポジトリの作成
+ git add .：
+ git commit -m "2025-0901 1155 index.htmlを追加"：version管理
+(git branch -M main：mainに移動、普通はそこに居るので不要)
+
+ git remote add origin git@github.com:Turg07/2025-0901.git：githubにあるものを丸コピ
+
+ git push -u origin main：
+ 
+
+【確認】
+ git log --oneline --graph：現在のログを確認
+ git diff：差分を確認
+ git branch：現在居るbranchを確認
+ 
+【変更後保存】
+ git add .：ステージングをする
+ git commit -m "2025-0901 12:36 こんばんは変更" 
+
+ 【本体に接続】
+ git checkout -b 名前：新しいbranch(名前:feature-hello)を作る
+-->
